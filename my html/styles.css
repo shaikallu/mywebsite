@@ -1,0 +1,160 @@
+*{
+	margin :0;
+	border :0; 
+	box-sizing:border-box;
+}
+.img{
+    border-image: url(background1.jpg) 10% round;
+}
+
+.back .front{
+    width: 100%;
+    height:100%;
+
+    border:1px solid black ;
+    box-shadow: 0px 25px 25px 0px;
+    width : 80%;
+}
+.tri{
+    position: absolute;
+    top:5.5%;
+    left:5%;
+width: 3%;
+}
+.search{
+    position:absolute;
+    width:20px;
+    right:10%;
+    top: 8%;
+    
+}
+
+a {
+    color:royalblue;
+    font-weight: 600;
+    font-family: sans-serif;
+    font: size 60%;
+    position:relative;
+    top:58px;
+    left: 20%;
+    padding:2%;
+    text-decoration: none;
+
+}
+ a:hover{
+    text-decoration: underline;
+    width: auto;
+    cursor: pointer;
+    transition: all ease 0.1;
+ }
+h3{
+    color: rgb(40, 40, 209);
+    position:absolute;
+    left: 10.3%;
+    top:9.1%;
+    font-size:x-large;
+    font-weight: 600;
+}
+.cir
+{
+    border: 3px solid rgb(40, 40, 209);
+    border-radius: 50%;
+    width: 3%;
+    height:6%;
+    position:absolute;
+    top: 7.9%;
+    left:6.5%;
+
+}
+.Sign {
+    left:40%;
+    font: size 65%;;
+}
+.start
+{
+padding: 1.5%;
+left: 30%;
+}
+.main{
+    width: 35%;
+    height:80%;
+    position: absolute;
+    left: 55%;
+    top: 15%;
+}
+h1{
+    position:absolute;
+    top:25%;
+    left:10%;
+    font-size:300%;
+    font-family: sans-serif;
+    color:rgb(11, 65, 225);
+}
+h4{
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    font-size: 150%;
+    color: rgb(20, 76, 243);
+}
+hr{
+     width:9%;
+    height: 1.1vh;
+    background: linear-gradient(to right,#02ace4,#0b0d9c);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    border-radius: 100px;
+}
+p{
+    position: absolute;
+    top: 57%;
+    left: 10%;
+        color: royalblue;
+}
+.starts{
+    position: absolute;
+    top:75%;
+    left: 10%;
+    padding:  10px 20px;
+    border-radius: 100px;
+    margin: 4px 2px ;
+    border: 1px linear-gradient(to right,#08ade4,#1619cb);
+    background : rgb(67,242,243);
+    background : linear-gradient(90deg, rgba(67,242,243,1) 7%, rgba(56,95,191,1) 96%);
+    cursor: pointer;
+}
+.read{
+    position: absolute;
+    top: 75%;
+    left:20%;
+    padding:10px 20px;
+    margin: 4px 2px;
+    border-radius: 100px;
+    color: royalblue;
+    border: 2px solid royalblue;
+    background: white;
+    cursor: pointer;
+}
+ 
+.fb{
+    position: absolute;
+    top: 90%;
+    left :10%;
+    width:2%;
+    padding:1px;
+}
+.ins{
+    position: absolute;
+    top: 90%;
+    left :12%;
+    width:2%;
+    padding:1px;
+}
+.twt{
+    position: absolute;
+    top: 90%;
+    left :14.5%;
+    width:2%;
+    padding:1px;
+}
